@@ -1,0 +1,39 @@
+{
+	"parent": { "database_id": "5876159b-9e4b-41b0-b955-bc6cbb5f481e" },
+    "icon": null,
+	"cover":null,
+	"properties": {
+		"Album Name": {
+            "title": [
+                {
+                    "text": {
+                        "content": "Let Go"
+                    }
+                }
+            ]
+        },
+        "Artist": {
+            "rich_text": [
+                {
+                    "text": {
+                        "content": "Avril Lavigne"
+                    }
+                }
+            ]
+        },
+        "Location": {
+            "rich_text": [
+                {
+                    "text": {
+                        "content": "\\\\server\\BrennanMusic\\Avril Lavigne\\Let Go"
+                    }
+                }
+            ]
+        },
+		"Type": {
+			"select": {
+				"name": "Flac"
+			}
+		}
+    }
+}
