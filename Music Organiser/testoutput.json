@@ -1,0 +1,43 @@
+{
+  "properties": {
+    "Type": {
+      "select": {
+        "name": "Flac"
+      }
+    },
+    "Album Name": {
+      "title": [
+        {
+          "text": {
+            "content": null
+          }
+        }
+      ]
+    },
+    "Artist": {
+      "rich_text": [
+        {
+          "text": {
+            "content": [
+              "Pink Floyd",
+              "The Darkside of the Moon",
+              "\\\\server\\BrennanMusic\\Pink Floyd\\The Dark Side Of The Moon"
+            ]
+          }
+        }
+      ]
+    },
+    "Location": {
+      "rich_text": [
+        {
+          "text": {
+            "content": null
+          }
+        }
+      ]
+    }
+  },
+  "parent": {
+    "database_id": "becb180a-c5d0-4078-bc0f-8fb075ff9d2e"
+  }
+}
