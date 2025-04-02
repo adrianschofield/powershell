@@ -1,0 +1,8 @@
+robocopy \\server\pictures \\server001\pictures /mir
+robocopy \\server\Documents \\server001\Documents /mir
+robocopy \\server\Lossless \\server001\Music /mir
+robocopy \\server\Users\Caroline \\server001\Users\Caroline /mir
+robocopy \\server\Users\Adrian \\server001\Adrian /mir
+robocopy \\server\Documents \\server001\Documents /mir
+robocopy \\server\Music \\server001\Music_mp3 /mir
+robocopy \\server\Users \\server001\Users /mir /XD Adrian Caroline
