@@ -1,0 +1,115 @@
+{
+    "object": "page",
+    "id": "55c0c93f-f35d-4904-8c5c-419a6a983406",
+    "created_time": "2023-10-31T11:52:00.000Z",
+    "last_edited_time": "2023-10-31T12:37:00.000Z",
+    "created_by": {
+        "object": "user",
+        "id": "5876159b-9e4b-41b0-b955-bc6cbb5f481e"
+    },
+    "last_edited_by": {
+        "object": "user",
+        "id": "5876159b-9e4b-41b0-b955-bc6cbb5f481e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+        "type": "database_id",
+        "database_id": "becb180a-c5d0-4078-bc0f-8fb075ff9d2e"
+    },
+    "archived": false,
+    "properties": {
+        "Type": {
+            "id": "%3Fm%60%7D",
+            "type": "select",
+            "select": {
+                "id": "x^>R",
+                "name": "Flac",
+                "color": "yellow"
+            }
+        },
+        "Duplicate": {
+            "id": "LQZA",
+            "type": "checkbox",
+            "checkbox": false
+        },
+        "Art Location": {
+            "id": "PzZH",
+            "type": "rich_text",
+            "rich_text": []
+        },
+        "Artist": {
+            "id": "dR%3Cp",
+            "type": "rich_text",
+            "rich_text": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "The Band",
+                        "link": null
+                    },
+                    "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                    },
+                    "plain_text": "The Band",
+                    "href": null
+                }
+            ]
+        },
+        "Location": {
+            "id": "w%3Fh%3C",
+            "type": "rich_text",
+            "rich_text": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "\\\\server\\Music\\The Band\\Greatest Hits",
+                        "link": null
+                    },
+                    "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                    },
+                    "plain_text": "\\\\server\\Music\\The Band\\Greatest Hits",
+                    "href": null
+                }
+            ]
+        },
+        "Album Name": {
+            "id": "title",
+            "type": "title",
+            "title": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "Greatest Hits",
+                        "link": null
+                    },
+                    "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                    },
+                    "plain_text": "Greatest Hits",
+                    "href": null
+                }
+            ]
+        }
+    },
+    "url": "https://www.notion.so/Greatest-Hits-55c0c93ff35d49048c5c419a6a983406",
+    "public_url": null,
+    "developer_survey": "https://notionup.typeform.com/to/bllBsoI4?utm_source=postman",
+    "request_id": "17ede961-404b-43c5-8ad8-a8c77040914b"
+}
