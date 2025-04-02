@@ -1,6 +1,6 @@
 # Globals
 
-$FolderName = "D:\temp\twitchvods"
+$FolderName = "E:\Data\Archived Twitch Highlights\Downloads"
 $BaseUri = "https://api.twitch.tv/helix/"
 $Includedate = $true
 
@@ -71,8 +71,23 @@ foreach ($file in $files) {
             $created = $video.created_at
             $title = $video.title
 
+            # Zero Padding for Day and Month
+            $day = ""
+            $month = ""
+            if ($created.Day -lt 10) {
+                $day = "0" + $created.Day.ToString()
+            } else {
+                $day = $created.Day.ToString()
+            }
+
+            if ($created.Month -lt 10) {
+                $month = "0" + $created.Month.ToString()
+            } else {
+                $month = $created.Month.ToString()
+            }
+
             # Let's create the date string we need
-            $date = $created.Year.ToString() + $created.Month.ToString() + $created.Day.ToString()
+            $date = $created.Year.ToString() + $month + $day
 
             # DBG
             # Write-Host $title $date
